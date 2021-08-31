@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="B2B.Domain">
+      <HintPath>..\..\B2B.Domain\bin\Debug\netcoreapp3.1\B2B.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="B2B.Services">
+      <HintPath>..\..\B2B.Services\bin\Debug\netcoreapp3.1\B2B.Services.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
